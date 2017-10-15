@@ -1,0 +1,111 @@
+  <!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position:fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color:#4CAF50;
+    color: white;
+}
+    .arkaplan{
+        
+        background-color: azure;
+    }    
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a  href="kategori.html">CSS Sözdizimi ve Seçicileri</a></li>
+  <li><a  href="navbar.html">CSS Navigasyon Bar</a></li>
+  <li><a class="active" href="#contact">CSS Metin</a></li>
+  <li><a href="background.html">CSS Arka Plan</a></li>
+ <a href="index.html"> <button type="button" class="btn btn-success btn-lng "> <h1>GERİ</h1> </button> </a>
+</ul>
+
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+  
+ <div class="arkaplan">  
+  <h1>Metin Rengi</h1>
+  
+  <p>colorMülkiyet metnin rengini ayarlamak için kullanılır.</p>
+     
+       <hr>
+     <h1>Metin Hizalama</h1>
+  <p>text-alignTesisinde metnin yatay hizalama ayarlamak için kullanılır.</p>
+  <p> Bir metin sola veya sağa hizalanabilir, ortalanabilir.  </p>
+      <hr>
+ <h1> ÖRNEK  </h1>
+  <p> h1 { </p>
+    <p>text-align: center;  </p>
+    <p>} </p>
+  <hr>
+     <p> h2 { </p>
+    <p>text-align: left;  </p>
+    <p>} </p>
+       <hr>
+     <p> h3 { </p>
+    <p>text-align: right;  </p>
+    <p>} </p>
+       <hr>
+     
+    <h1> Metin Dekorasyonu</h1>
+     
+     <p>text-decorationÖzelliği ayarlamak veya metinden süslemeleri kaldırmak için kullanılır.</p>
+  <p> Değer text-decoration: none;genellikle bağlantıların altı çizgilerini kaldırmak için kullanılır: </p>
+     <hr>
+     <p> a{ </p>
+    <p>text-decoration: none;  </p>
+    <p>} </p>
+      <hr>
+     <h1> Metin Dönüşümüu</h1>
+     
+     <p>text-transformTesiste metinde büyük ve küçük harf belirtmek için kullanılır.</p>
+  <p> Herşeyi büyük harf veya küçük harf haline getirmek veya her kelimenin ilk harfini büyük harf yapmak için kullanılabilir: </p>
+     <hr>
+     <p> p.uppercase{ </p>
+    <p>text-transform: uppercase;  </p>
+    <p>} </p>
+     
+     <p> p.lowercase{ </p>
+    <p>text-transform: lowercase; </p>
+    <p>} </p>
+     
+     <p> p.capitalize{ </p>
+    <p>text-transform: capitalize; </p>
+    <p>} </p>
+     </div>
+ 
+</div>
+    
+
+
+</body>
+</html>
+
