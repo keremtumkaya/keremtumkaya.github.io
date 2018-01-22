@@ -1,0 +1,128 @@
+html,
+body,
+#cover{
+    height: 100%;
+}
+#cover{
+    
+   background: url('../images/arkaPlan.png') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+
+.carousel-item{
+     background-size:auto;
+    background:grey;
+    
+    
+}
+
+
+.fixed-top{
+    
+    max-width: 1140px;
+    margin: 20px auto; 
+}
+
+h1{
+    
+    margin-top: 30%;
+    font-family:serif;
+    color:darkblue;
+    font-size: 40px;
+    margin-bottom: 20px; 
+    font-style: italic;
+}
+h2{
+    
+    color:brown;
+    font-size: 75px;
+    margin-bottom: 30px;
+}
+h3{
+    font-style: italic;
+    color:darkblue;
+    
+}
+
+.btn-success:hover{
+    
+    background-color:darkgoldenrod;
+}
+a.nav-link{
+    font-size: 20px;
+    color:darkblue !important;
+    transition: color 0.5s ease;
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+
+}
+
+a.nav-link:hover{
+    
+    background-color:forestgreen;
+    
+}
+
+#services{
+    padding: 120px 0;
+    background-size: cover;
+    
+}
+
+.services-top h4, .portfolio-top h4{
+    font-size: 40px;
+
+}
+
+.item-circle{
+    padding: 5px 0;
+ background: url('../images/altLogo.png') no-repeat ;
+width: 100px;
+  height: 100px;
+    border: 3px;
+}
+
+#portfolio{
+    background-color: #f7f7f7;
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+.portfolio-top p, .services-top p{
+    
+    font-size: 16px;
+    font-style: italic;
+    color:#777;
+    margin-bottom: 70px; <!-- alttan usten bosluk -->
+}
+.portfolio-content .row{
+    margin-bottom: 30px;
+    
+}
+.card{
+    border-style: none;
+    text-align: center;
+}
+.hakkimda{
+    
+    text-align: center;
+    
+}
+.footer{
+    
+    background-color: darkolivegreen;
+    
+}
+.iletisimsinifi{
+    
+background-color:gray;
+color: black    
+}
+h6{
+    
+    font-size: 40px;
+}
